@@ -139,6 +139,36 @@ body.mobile-menu-open .burger i:after {
   margin-right: auto
 }
 
+
+.visit-btn {
+  margin-top: 40px;
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 14px;
+  color: #fff;
+  background: linear-gradient(90deg, #0066CC 0%, #464646 100%);
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.visit-btn:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background: linear-gradient(90deg, #0066CC 0%, #6d6c6d 100%);
+  color: #c7c5c5;
+  font-weight: 600;
+  border: solid 2px #0066cc;
+}
+
 @media only screen and (max-width:1280px) {
   .header-v4 .logo {
     width: 142px
