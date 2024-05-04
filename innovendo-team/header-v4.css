@@ -144,14 +144,14 @@ body.mobile-menu-open .burger i:after {
   margin-top: 40px;
   font-family: Roboto, sans-serif;
   font-weight: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   background: linear-gradient(90deg, #0066CC 0%, #464646 100%);
   padding: 10px 30px;
   border: 2px solid #0066cc;
   box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
   border-radius: 50px;
-  transition: 1000ms;
+  transition: 1200ms;
   transform: translateY(0);
   display: flex;
   flex-direction: row;
@@ -160,11 +160,11 @@ body.mobile-menu-open .burger i:after {
 }
 
 .visit-btn:hover {
-  transition: 1000ms;
+  transition: 1200ms;
   padding: 10px 50px;
   transform: translateY(-0px);
-  background: linear-gradient(90deg, #0066CC 0%, #6d6c6d 100%);
-  color: #c7c5c5;
+  background: linear-gradient(90deg, #0066CC 0%, #424242 100%);
+  color: #000000;
   font-weight: 600;
   border: solid 2px #0066cc;
 }
